@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".neto_Activity">
+
+    <FrameLayout
+        android:layout_width="360dp"
+        android:layout_height="570dp"
+        android:background="@drawable/fundo_4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/bt_detalhar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="510dp"
+            android:text="detalhar" />
+
+        <Button
+            android:id="@+id/bt_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="510dp"
+            android:text="@string/total" />
+
+        <Button
+            android:id="@+id/bt_voltar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="265dp"
+            android:layout_marginTop="510dp"
+            android:text="voltar" />
+        <Button
+            android:id="@+id/bt_det"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="510dp"
+            android:text="@string/detalhes"
+            android:layout_marginStart="130dp" />
+
+        <TextView
+            android:id="@+id/tv_ent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="10dp"
+            android:text="Entradas"
+            android:textColor="#010101"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tv_sai"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="10dp"
+            android:text="Saídas"
+            android:textColor="#010101"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tv_316"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:background="#FAF8F4F4"
+            android:text="316"
+            android:textColor="#010101"
+            android:textSize="18sp" />  //###316
+        <EditText
+            android:id="@+id/et_316e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="50dp"
+            android:background="#FAF8F4F4"
+            android:ems="4"
+            android:inputType="number"
+            android:textSize="18sp" />
+        <EditText
+            android:id="@+id/et_316s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="50dp"
+            android:background="#FAF8F4F4"
+            android:ems="4"
+            android:inputType="number"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_382"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="100dp"
+            android:background="#FAF8F4F4"
+            android:text="382"
+            android:textColor="#010101"
+            android:textSize="18sp" />  //###382
+        <EditText
+            android:id="@+id/et_382e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="100dp"
+            android:background="#FAF8F4F4"
+            android:ems="4"
+            android:inputType="number"
+            android:textSize="18sp" />
+        <EditText
+            android:id="@+id/et_382s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="100dp"
+            android:background="#FAF8F4F4"
+            android:ems="4"
+            android:inputType="number"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tv_383"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="150dp"
+            android:background="#FAF8F4F4"
+            android:text="383"
+            android:textColor="#010101"
+            android:textSize="18sp" />  //###383
+        <EditText
+            android:id="@+id/et_383e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="150dp"
+            android:background="#FAF8F4F4"
+            android:ems="4"
+            android:inputType="number"
+            android:textSize="18sp" />
+        <EditText
+            android:id="@+id/et_383s"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="150dp"
+            android:background="#FAF8F4F4"
+            android:ems="4"
+            android:inputType="number"
+            android:textSize="18sp" />
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
